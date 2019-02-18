@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="resources/money.png" style="height:100px"/>
+  <img src="resources/money.png" height=100px/>
 </p>
-<h1 style="text-align: center;">cash</h1>
-<h4 style="text-align: center;">A Javascript library made to convert currencies</h4>
+<h1 align="center">cash</h1>
+<h4 align="center">A Javascript library made to convert currencies</h4>
 
 <p align="center">
   <img src="https://forthebadge.com/images/badges/built-by-developers.svg"/>
