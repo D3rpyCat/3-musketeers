@@ -29,7 +29,10 @@ describe('starwars-names', () => {
 
     test('should return an array of random items if passed a number', () => {
       const value = 3;
-      expect(starWars.all).not.toContain(starWars.random(value))
+      const array = starWars.random(value)
+      for (let i = 0; i < array.length; i++) {
+        expect(starWars.all).toContain(array[i])
+      }
     });
   });
 });
