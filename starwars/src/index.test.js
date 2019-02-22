@@ -7,7 +7,7 @@ describe('starwars-names', () => {
       expect(starWars.all).toHaveLength(starWarsNames.length)
     });
     test('should be an array of strings', () => {
-      let stringValue = "test"
+      const stringValue = "test"
       for (let i = 0; i < starWars.all.length; i++) {
         expect(typeof starWars.all[i]).toBe(typeof stringValue)
       }
